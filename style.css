@@ -1,0 +1,130 @@
+/* === Estilos do Curriculum Vitae === */
+
+/* Fonte externa (Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:ital,wght@1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fundo com gradiente suave */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #f9f9f9, #eef2ff);
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Seletor por ID (destaque da seção "Sobre") */
+#sobre {
+  background: linear-gradient(135deg, #e0f7fa, #e3f2fd);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+/* Texto importante */
+.highlight {
+  font-weight: bold;
+  color: #ff4081;
+}
+
+/* Links externos */
+a[target="_blank"] {
+  font-style: italic;
+  color: #3949ab;
+}
+
+/* Efeito hover em links */
+a:hover {
+  color: #ff4081;
+  text-decoration: underline;
+  transition: 0.3s ease;
+}
+
+/* Cabeçalho */
+header {
+  text-align: center;
+  margin-bottom: 25px;
+  padding: 20px;
+  background: linear-gradient(90deg, #3f51b5, #5c6bc0);
+  color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 2.4em;
+  margin-bottom: 10px;
+}
+
+/* Foto de perfil */
+.foto-perfil {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Navegação */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 15px 0 25px 0;
+  padding: 10px;
+  background: #e8eaf6;
+  border-radius: 8px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #303f9f;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+nav a:hover {
+  background: #5c6bc0;
+  color: white;
+}
+
+/* Seções */
+section {
+  margin-bottom: 25px;
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+}
+
+section h2 {
+  border-left: 6px solid #3f51b5;
+  padding-left: 10px;
+  margin-bottom: 12px;
+  font-size: 1.6em;
+  color: #3f51b5;
+}
+
+/* Rodapé */
+footer p {
+  text-align: center;
+  font-style: oblique;
+  font-size: 0.95em;
+  color: #444;
+  margin-top: 30px;
+  padding: 10px;
+  border-top: 2px solid #ccc;
+  background: #f5f5f5;
+}
